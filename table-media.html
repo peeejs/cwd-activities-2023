@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Tables & Media</title>
+</head>
+<body>
+    
+    <h1 class="pink-text text-accent-2 center">Table</h1>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <p>
+            Tables are a nice way to organize a lot of data. We provide a few utility classes to help you style your table as easily as possible. In addition, to improve mobile experience, all tables on mobile-screen widths are centered automatically.
+        </p>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Prinzz</td>
+                    <td>Mouse</td>
+                    <td>$20</td>
+                </tr>
+
+                <tr>
+                    <td>Abi</td>
+                    <td>Bracelet</td>
+                    <td>$6.59</td>
+                </tr>
+
+                <tr>
+                    <td>Destiny</td>
+                    <td>Lollipop</td>
+                    <td>$1.79</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 class="pink-text text-accent-1">Striped Table</h3>
+            <p>Add class="striped" to the table tag for a striped table</p>
+
+            <table class="striped">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Prinzz</td>
+                        <td>Mouse</td>
+                        <td>$20</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Abi</td>
+                        <td>Bracelet</td>
+                        <td>$6.59</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Destiny</td>
+                        <td>Lollipop</td>
+                        <td>$1.79</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="pink-text text-accent-1">Highlight Table</h3>
+            <p>Add class="highlight" to the table tag for a highlight table.</p>
+
+            <table class="highlight">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Prinzz</td>
+                        <td>Mouse</td>
+                        <td>$20</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Abi</td>
+                        <td>Bracelet</td>
+                        <td>$6.59</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Destiny</td>
+                        <td>Lollipop</td>
+                        <td>$1.79</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="pink-text text-accent-1">Centered Table</h3>
+            <p>Add class="highlight" to the table tag for a highlight table.</p>
+
+            <table class="highlight centered">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Prinzz</td>
+                        <td>Mouse</td>
+                        <td>$20</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Abi</td>
+                        <td>Bracelet</td>
+                        <td>$6.59</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Destiny</td>
+                        <td>Lollipop</td>
+                        <td>$1.79</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="pink-text text-accent-1">Responsive Table</h3>
+            <p>Add class="responsive-table" to the table tag to make the table horizontally scrollable on smaller screen widths.</p>
+
+            <table class="highlight centered responsive-table">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>Prinzz</td>
+                        <td>Mouse</td>
+                        <td>$20</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Abi</td>
+                        <td>Bracelet</td>
+                        <td>$6.59</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Destiny</td>
+                        <td>Lollipop</td>
+                        <td>$1.79</td>
+                    </tr>
+                </tbody>
+            </table>
+
+    </div>
+
+    <br><br><br><br>
+    <h1 class="deep-purple-text text-accent-2 center">Media CSS</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <h3 class="deep-purple-text text-accent-1">Images</h3>
+        <p>Images can be styled in different ways using Materialize</p>
+        <p class="flow-text">Responsive Images</p>
+        <p>To make images resize responsively to page width, you can add the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.</p>
+
+        <p class="flow-text">Circular images</p>
+        <div class="row">
+            <div class="col s12 m8 l6 ">
+                <div class="card-panel deep-purple lighten-4 z-depth-2">
+                    <div class="row valign-wrapper">
+                        <div class="col s6">
+                            <img src="Images/img2.jpg" alt="" class="circle responsive-img">
+                        </div>
+                        <div class="col s6">
+                            <span class="indigo-text">
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p>To make images appear circular, simply add class="circle" to them</p>
+
+        <br><br>
+        <h3 class="deep-purple-text text-accent-1">Videos</h3>
+        <p>We provide a container for Embedded Videos that resizes them responsively.</p>
+
+        <p class="flow-text">Responsive Embeds</p>
+        <p>To make your embeds responsive, merely wrap them with a containing div which has the class video-container</p>
+        <div class="video-container">
+            <iframe width="500" height="200" src="https://www.youtube.com/embed/AtM0STd8ClE?si=y24BtR8rL7OpvGJn" frameborder="1" allowfullscreen></iframe>
+        </div>
+
+        <p class="flow-text">Responsive Videos</p>
+        <p>To make your HTML5 Videos responsive just add the class responsive-video to the video tag.</p>
+        <video class="responsive-video" controls>
+        <source src="movie.mp4" type="video/mp4">
+    </video>
+
+    </div>
+
+    <br>
+    <h1 class="center blue-text">Media</h1>
+    <div class="divider"></div>
+    <div class="container">
+
+        <br>
+        <p>Media components include things that have to do with large media objects like Images, Video, Audio, etc.</p>
+
+        <h3 class="blue-text">Material Box</h3>
+
+        <p>Material box is a material design implementation of the Lightbox plugin. When a user clicks on an image that can be enlarged, Material box centers the image and enlarges it in a smooth, non-jarring manner. To dismiss the image, the user can either click on the image again, scroll away, or press the ESC key.</p>
+
+        <img src="Images/img1.jpg" alt="" class="materialboxed responsive-img" data-caption="This is Mount Fuji">
+        
+        
+        <!-- Slider -->
+        <h3 class="blue-text">Slider</h3>
+        <p>Our slider is a simple and elegant image carousel. You can also have captions that will be transitioned on their own depending on their alignment. You can also have indicators that show up on the bottom of the slider.</p>
+
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="Images/s1.jpg" alt="">
+                    <div class="caption center-align">
+                        <h3 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">You are my sea</h3>
+                    </div>
+                    
+                </li>
+                <li>
+                    <img src="Images/s2.jpg" alt="">
+                    <div class="caption left-align">
+                        <h3 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">You are my sunshine</h3>
+                    </div>
+                    
+                </li>
+                <li>
+                    <img src="Images/s3.jpg" alt="">
+                    <div class="caption right-align">
+                        <h3 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">The star</h3>
+                    </div>
+                    
+                </li>
+                <li>
+                    <img src="Images/s4.jpg" alt="">
+                    <div class="caption center-align">
+                        <h3 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">The moon</h3>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div style="height: 1000px;"></div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!--- Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            //materialbox initialize
+            $('.materialboxed').materialbox({
+                inDuration: 1500,
+                outDuration: 500
+            });
+
+            //Slider
+            $('.slider').slider({
+                indicators: true,
+                height: 1000,
+                duration: 1000,
+                interval: 1200
+            });
+                
+
+        });
+    </script>
+
+
+</body>
+</html>

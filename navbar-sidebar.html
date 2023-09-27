@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FontAwesome  -->
+    <script src="https://kit.fontawesome.com/06411b5c0f.js" crossorigin="anonymous"></script>
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <div class="navbar-fixed">
+        <nav class="pink accent-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo " target="_blank"><i class="fa-solid fa-diamond"></i></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <title>Navbar & Sidenav</title>
+</head>
+<body>
+
+    <h1 class="light-blue-text text-darken-4 center">Navbar</h1>
+    <div class="divider"></div>
+    <div class="container">
+        <br>
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
+
+        <h3 class="light-blue-text ">Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your <'ul'> that contains them.</p>
+
+        <nav class="blue-grey lighten-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo" target="_blank"><i class="fa-regular fa-star yellow-text text-accent-3"></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+
+        <h3 class="light-blue-text">Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your <'ul'> that contains them.</p>
+
+        <nav class="amber">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo" target="_blank"><i class="fa-regular fa-heart red-text"></i></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+
+        <h3 class="light-blue-text">Centering the logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your <'a class="brand-logo">. You will have to make sure yourself that links do not overlap if you use this.</p>
+
+        <nav class="deep-purple accent-1">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo center" target="_blank"><i class="fa-regular fa-square orange-text"></i></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+
+        <h3 class="light-blue-text">Active Items</h3>
+        <p>Add active class to your li tags to denote the current page.</p>
+
+        <nav class="green lighten-2">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo center" target="_blank"><i class="fa-regular fa-circle pink-text text-accent-4"></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li class="active">
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h3 class="light-blue-text">Extended Navbar with Tabs</h3>
+        <p>To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.</p>
+        
+        <nav class="pink accent-4 nav-extended">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo " target="_blank"><i class="fa-solid fa-diamond"></i></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sidenav Structure -->
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a href="https://www.facebook.com/"
+                        target="_blank" class="black-text">Facebook</a></li>
+                    <li><a href="https://twitter.com/"
+                        target="_blank" class="black-text">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/"
+                        target="_blank" class="black-text">Instagram</a></li>
+                </ul>
+
+                <div class="nav-content">
+                    <ul class="tabs tabs-transparent">
+                        <li class="tab"><a href="#test1">Test 1</a></li>
+                        <li class="tab"><a href="#test2">Test 2</a></li>
+                        <li class="tab"><a href="#test3">Test 3</a></li>
+                        <li class="tab"><a href="#test4">Test 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Tabs structure -->
+        <div class="row">
+            <div class="col s12" id="test1">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Images/img1.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 " id="test2">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Images/img2.jpg" alt="" class="responsive-img">
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 " id="test3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="Images/img3.jpg" alt="" class="responsive-img">
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12" id="test4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Images/s5.jpg" alt="" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="light-blue-text">Fixed Navbar</h3>
+        <p>To make the navbar fixed, you have to add an outer wrapping div with the class navbar-fixed. This will offset your other content while making your nav fixed. You can adjust the height of this outer div to change how much offset is on your content.</p>
+
+
+        <h3 class="light-blue-text">Navbar Dropdown Menu</h3>
+        <p>To add a navbar dropdown menu, add the ul dropdown structure into the page. Then, add an element to trigger the dropdown menu. Make sure to supply the id of the dropdown structure to the data-target attribute of the dropdown trigger.</p>
+
+        <ul class="dropdown-content" id="dropdown1">
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li><a href="#!">three</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">four</a></li>
+        </ul>
+
+        <nav class="red">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo" target="_blank"><i class="fa-solid fa-plus"></i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="black-text">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="black-text">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="black-text">Instagram</a>
+                        </li>
+                        <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1">Dropdown <i class="fa-solid fa-sort-down black-text"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav>
+
+        <h3 class="light-blue-text">Icon Links</h3>
+        <p>You can add icons into links. For icon only links you don't need any additional class. Just pop the i tag in and it will work.</p>
+
+        <nav class="indigo">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo" target="_blank"><i class="fa-solid fa-clover"></i>Logo</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="https://www.facebook.com/"
+                            target="_blank" class="white-text"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"
+                            target="_blank" class="white-text"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"
+                            target="_blank" class="white-text"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <p>For adding an icon to a text link you need to add either a left or right class to the icon depending on where you want the icon to be.</p>
+        <nav class="indigo">
+            <div class="nav-wrapper">
+                <a href="https://www.youtube.com/watch?v=yqckJtIShyM" class="brand-logo" target="_blank"><i class="fa-solid fa-clover"></i>Logo</a>
+                <ul class="right hide-on-med-and-down">
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook left"></i>Link with Left Icon</a></li>
+                <li><a href="https://twitter.com/"
+                    target="_blank" class="white-text"><i class="fa-brands fa-twitter right"></i>Link with Right Icon</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h3 class="light-blue-text">Buttons</h3>
+        <p>You can add buttons into links. For buttons you don't need any additional class. Just pop the .btn class on the a tag.</p>
+
+        <nav>
+            <div class="nav-wrapper orange">
+                <a href="" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect waves-light btn">Button</a></li>
+                    <li><a class="waves-effect waves-light btn">Button
+                        <i class="fa-solid fa-play"></i></a></li>
+                    <li><a class="waves-effect waves-light btn-large">Large Button</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <p class="flow-text light-blue-text">Halfway FAB in Extended Navbar</p>
+        <p>Add a halfway FAB to your extended navbar.</p>
+
+        <nav class="nav-extended brown">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo"><i class="fa-regular fa-eye black-text"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="black-text">A link</a></li>
+                    <li><a class="black-text">A second link</a></li>
+                    <li><a class="black-text">A third link</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-content">
+                <span class="nav-title"><i class="fa-solid fa-eye black-text"></i></span>
+                <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+                    <i class="fa-solid fa-plus"></i>
+                </a>
+            </div>
+        </nav>
+
+        <h3 class="light-blue-text">Search Bar</h3>
+        <p>You can add a search form in the navbar.</p>
+
+        <nav class="blue-grey">
+            <div class="nav-wrapper">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                        <i class="material-icons"><i class="fa-solid fa-xmark"></i></i>
+                    </div>
+                </form>
+            </div>
+        </nav>
+
+        <h3 class="light-blue-text">Mobile Collapse Button</h3>
+        <p>When your nav bar is resized, you will see that the links on the right turn into a hamburger icon menu. Take a look at the example below to get this functionality. Add the entire sidenav-trigger line to your nav.</p>
+        <nav class="black">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo"><i class="fa-solid fa-font-awesome"></i></a>
+                <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/"target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        </ul>
+    </div>
+
+    <div style="height: 1000px;"></div>
+    
+    
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!--- Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        // Tab initialization
+        $(document).ready(function(){
+            $('.tabs').tabs();
+        });
+    
+        // Side navigation initialization
+        $(document).ready(function(){
+            $('.sidenav').sidenav({
+                edge: 'right'
+            });
+        });
+
+        $(document).ready(function(){
+            $(".dropdown-trigger").dropdown({
+                hover: true
+            });
+        });
+    </script>
+    
+
+</body>
+</html>
